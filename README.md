@@ -106,15 +106,15 @@ All large artifacts are stored in the shared Google Drive folder. You must have 
 
 | File | Size | Description | Link |
 |------|------|-------------|------|
-| `cleaned_corpus.csv` | ~500 MB | Full cleaned dataset | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1Uhm4dVVF44Ry9d6BMM-l5EiIYsDJQEOH/view?usp=drive_link)) |
-| `embedding_texts.csv` | ~300 MB | Text corpus aligned to embeddings | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1aUzDauHS2jKnukvL5-i0tZVwjmul9Pf0/view?usp=drive_link)) |
-| `embeddings.npy` | ~2.7 GB | Pre-computed sentence vectors | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1brUtNpT5f9qG9mpONkHtKw3vOlW1xz5L/view?usp=drive_link)) |
-| `faiss_index.bin` | ~400 MB | FAISS index (ready to load) | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1dhTXpSsXBWH98cMEWeJPEzpygDGx4nPm/view?usp=drive_link)) |
-| `tfidf_matrix.npz` | ~150 MB | Sparse TF-IDF matrix | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/15GyNCX9VEoFLJAZmcdin0bbfmGOeABMU/view?usp=drive_link)) |
+| `cleaned_corpus.csv` | ~500 MB | Full cleaned dataset | [Open in Drive](https://drive.google.com/file/d/1Uhm4dVVF44Ry9d6BMM-l5EiIYsDJQEOH/view?usp=drive_link) |
+| `embedding_texts.csv` | ~300 MB | Text corpus aligned to embeddings | [Open in Drive](https://drive.google.com/file/d/1aUzDauHS2jKnukvL5-i0tZVwjmul9Pf0/view?usp=drive_link) |
+| `embeddings.npy` | ~2.7 GB | Pre-computed sentence vectors | [Open in Drive](https://drive.google.com/file/d/1brUtNpT5f9qG9mpONkHtKw3vOlW1xz5L/view?usp=drive_link) |
+| `faiss_index.bin` | ~400 MB | FAISS index (ready to load) | [Open in Drive](https://drive.google.com/file/d/1dhTXpSsXBWH98cMEWeJPEzpygDGx4nPm/view?usp=drive_link) |
+| `tfidf_matrix.npz` | ~150 MB | Sparse TF-IDF matrix | [Open in Drive](https://drive.google.com/file/d/15GyNCX9VEoFLJAZmcdin0bbfmGOeABMU/view?usp=drive_link) |
 | `flan_t5_base/` | ~1 GB | Generator model folder | [Open in Drive](https://drive.google.com/your-link-here) |
 | `evaluation_report.json` | < 1 MB | Metrics (BLEU, ROUGE, Recall@K) | [Open in Drive](https://drive.google.com/your-link-here) |
 
-Replace all `https://drive.google.com/your-link-here` placeholders with the actual shared links from your Drive folder. To get a shareable link: right-click each file or folder in Drive, choose Share, then Copy link.
+> The last two links still need to be filled in. Right-click each file/folder in Drive → Share → Copy link, and replace the placeholder.
 
 To request access, contact the project owner and ask to be added to the `support_rag_project` Drive folder.
 
@@ -210,7 +210,7 @@ For GPU inference:
 pip install faiss-gpu  # replaces faiss-cpu
 ```
 
-### Step 2 — Access the Drive
+### Step 2 — Access the Drive files
 
 **Option A — Google Colab:**
 ```python
@@ -302,7 +302,6 @@ print(rag_generate("my order hasn't arrived and it's been 2 weeks"))
 
 ---
 
-
 ## Tech Stack
 
 | Component | Library / Model |
@@ -333,3 +332,7 @@ pip install -q datasets transformers sentence-transformers \
                scikit-learn pandas matplotlib seaborn wordcloud \
                nltk tqdm scipy torch
 ```
+
+---
+
+*Last updated: May 2026*
