@@ -334,5 +334,3 @@ pip install -q datasets transformers sentence-transformers \
 ```
 
 ---
-
-*Last updated: May 2026*
