@@ -106,11 +106,11 @@ All large artifacts are stored in the shared Google Drive folder. You must have 
 
 | File | Size | Description | Link |
 |------|------|-------------|------|
-| `cleaned_corpus.csv` | ~500 MB | Full cleaned dataset | [Open in Drive](https://drive.google.com/your-link-here) |
-| `embedding_texts.csv` | ~300 MB | Text corpus aligned to embeddings | [Open in Drive](https://drive.google.com/your-link-here) |
-| `embeddings.npy` | ~2.7 GB | Pre-computed sentence vectors | [Open in Drive](https://drive.google.com/your-link-here) |
-| `faiss_index.bin` | ~400 MB | FAISS index (ready to load) | [Open in Drive](https://drive.google.com/your-link-here) |
-| `tfidf_matrix.npz` | ~150 MB | Sparse TF-IDF matrix | [Open in Drive](https://drive.google.com/your-link-here) |
+| `cleaned_corpus.csv` | ~500 MB | Full cleaned dataset | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1Uhm4dVVF44Ry9d6BMM-l5EiIYsDJQEOH/view?usp=drive_link)) |
+| `embedding_texts.csv` | ~300 MB | Text corpus aligned to embeddings | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1aUzDauHS2jKnukvL5-i0tZVwjmul9Pf0/view?usp=drive_link)) |
+| `embeddings.npy` | ~2.7 GB | Pre-computed sentence vectors | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1brUtNpT5f9qG9mpONkHtKw3vOlW1xz5L/view?usp=drive_link)) |
+| `faiss_index.bin` | ~400 MB | FAISS index (ready to load) | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1dhTXpSsXBWH98cMEWeJPEzpygDGx4nPm/view?usp=drive_link)) |
+| `tfidf_matrix.npz` | ~150 MB | Sparse TF-IDF matrix | [Open in Drive]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/15GyNCX9VEoFLJAZmcdin0bbfmGOeABMU/view?usp=drive_link)) |
 | `flan_t5_base/` | ~1 GB | Generator model folder | [Open in Drive](https://drive.google.com/your-link-here) |
 | `evaluation_report.json` | < 1 MB | Metrics (BLEU, ROUGE, Recall@K) | [Open in Drive](https://drive.google.com/your-link-here) |
 
