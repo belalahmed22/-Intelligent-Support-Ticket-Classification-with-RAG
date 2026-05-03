@@ -1,6 +1,59 @@
-env/
 
+cat > .gitignore << 'EOF'
+# Python
 __pycache__/
-*.p
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.whl
 
-outputs/cleaned_corpus.csv
+# Virtual Environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+data/
+uploads/
+chroma_db/
+*.db
+*.sqlite
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+*.pid
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+Desktop.ini
+EOF
