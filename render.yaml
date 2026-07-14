@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: ai-ticket-backend
-    env: docker
-    plan: free
-    rootDir: Backend
-    dockerfilePath: ./Dockerfile
-    autoDeploy: true
