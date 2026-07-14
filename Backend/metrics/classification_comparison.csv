@@ -1,0 +1,3 @@
+model,accuracy,weighted_precision,weighted_recall,weighted_f1,eval_size
+TFIDF_LogisticRegression,0.9747345557184912,0.9749964960381564,0.9747345557184912,0.9746412558744786,
+Hybrid_Retrieval_RAG_Classifier,0.704,0.702363340190781,0.704,0.6989277502097838,1000.0

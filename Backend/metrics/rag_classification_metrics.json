@@ -1,0 +1,8 @@
+{
+  "model": "Hybrid_Retrieval_RAG_Classifier",
+  "accuracy": 0.704,
+  "weighted_precision": 0.702363340190781,
+  "weighted_recall": 0.704,
+  "weighted_f1": 0.6989277502097838,
+  "eval_size": 1000
+}

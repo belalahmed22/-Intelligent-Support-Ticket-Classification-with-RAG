@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+scikit-learn
+joblib
+numpy
+pydantic
+pydantic-settings
+python-dotenv
+transformers
+torch
+sentence-transformers
+faiss-cpu
+rank-bm25
+accelerate
+huggingface-hub

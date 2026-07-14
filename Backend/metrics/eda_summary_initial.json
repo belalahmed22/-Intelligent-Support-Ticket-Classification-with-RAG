@@ -1,0 +1,58 @@
+{
+  "rows_before_cleaning": 945278,
+  "missing_values": {
+    "output": 0,
+    "input": 0
+  },
+  "duplicate_rows": 1838,
+  "length_stats": {
+    "count": {
+      "input_chars": 945278.0,
+      "output_chars": 945278.0,
+      "input_words": 945278.0,
+      "output_words": 945278.0
+    },
+    "mean": {
+      "input_chars": 97.32598981463654,
+      "output_chars": 100.46405819240478,
+      "input_words": 18.335351081903948,
+      "output_words": 18.882623947664072
+    },
+    "std": {
+      "input_chars": 53.60716013104306,
+      "output_chars": 44.168516053080545,
+      "input_words": 10.323084262158737,
+      "output_words": 8.377628222248775
+    },
+    "min": {
+      "input_chars": 0.0,
+      "output_chars": 0.0,
+      "input_words": 0.0,
+      "output_words": 0.0
+    },
+    "25%": {
+      "input_chars": 59.0,
+      "output_chars": 72.0,
+      "input_words": 11.0,
+      "output_words": 14.0
+    },
+    "50%": {
+      "input_chars": 96.0,
+      "output_chars": 98.0,
+      "input_words": 18.0,
+      "output_words": 19.0
+    },
+    "75%": {
+      "input_chars": 125.0,
+      "output_chars": 122.0,
+      "input_words": 24.0,
+      "output_words": 23.0
+    },
+    "max": {
+      "input_chars": 322.0,
+      "output_chars": 294.0,
+      "input_words": 111.0,
+      "output_words": 62.0
+    }
+  }
+}

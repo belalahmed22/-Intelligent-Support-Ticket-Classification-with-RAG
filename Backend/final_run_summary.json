@@ -1,0 +1,81 @@
+{
+  "project": "Intelligent Support Ticket Classification with RAG",
+  "dataset": "MohammadOthman/mo-customer-support-tweets-945k",
+  "max_rows": null,
+  "train_rows": 725575,
+  "test_rows": 181394,
+  "categories": [
+    "account_login",
+    "billing_payment",
+    "general_support",
+    "order_shipping",
+    "product_service",
+    "refund_return",
+    "technical_app"
+  ],
+  "output_dir": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834",
+  "config": {
+    "test_size": 0.2,
+    "top_k": 5,
+    "faiss_weight": 0.55,
+    "bm25_weight": 0.45,
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "generator_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "generation_eval_size": 50,
+    "run_generation_eval": true
+  },
+  "metrics": {
+    "traditional_classification": {
+      "model": "TFIDF_LogisticRegression",
+      "accuracy": 0.9747345557184912,
+      "weighted_precision": 0.9749964960381564,
+      "weighted_recall": 0.9747345557184912,
+      "weighted_f1": 0.9746412558744786
+    },
+    "rag_classification": {
+      "model": "Hybrid_Retrieval_RAG_Classifier",
+      "accuracy": 0.704,
+      "weighted_precision": 0.702363340190781,
+      "weighted_recall": 0.704,
+      "weighted_f1": 0.6989277502097838,
+      "eval_size": 1000
+    },
+    "retrieval": {
+      "precision@5": 0.636,
+      "hit@5": 0.906,
+      "mrr@5": 0.7442000000000001
+    },
+    "traditional_response": {
+      "model": "TFIDF_Nearest_Response",
+      "rouge": {
+        "rouge1": 0.13290981410891023,
+        "rouge2": 0.015179047430884239,
+        "rougeL": 0.09952373214878227,
+        "rougeLsum": 0.09929153844300587
+      },
+      "bleu": 0.9881245260932446
+    },
+    "rag_response": {
+      "model": "Hybrid_RAG_Qwen_Generator",
+      "rouge": {
+        "rouge1": 0.12514872352658402,
+        "rouge2": 0.020433662396775104,
+        "rougeL": 0.09140129231013215,
+        "rougeLsum": 0.09957948427463428
+      },
+      "bleu": 0.5703721175956207,
+      "eval_size": 50
+    }
+  },
+  "important_artifacts": {
+    "cleaned_labeled_dataset": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/artifacts/cleaned_labeled_dataset.csv",
+    "train_split": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/artifacts/train_split.csv",
+    "test_split": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/artifacts/test_split.csv",
+    "train_embeddings": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/artifacts/train_embeddings.npy",
+    "test_embeddings": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/artifacts/test_embeddings.npy",
+    "faiss_index": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/artifacts/faiss_train.index",
+    "traditional_classifier": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/artifacts/traditional_tfidf_logreg_classifier.joblib",
+    "classification_comparison": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/metrics/classification_comparison.csv",
+    "response_generation_comparison": "/kaggle/working/support_ticket_rag_runs/run_20260510_021834/metrics/response_generation_comparison.csv"
+  }
+}

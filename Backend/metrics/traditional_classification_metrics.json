@@ -1,0 +1,7 @@
+{
+  "model": "TFIDF_LogisticRegression",
+  "accuracy": 0.9747345557184912,
+  "weighted_precision": 0.9749964960381564,
+  "weighted_recall": 0.9747345557184912,
+  "weighted_f1": 0.9746412558744786
+}
