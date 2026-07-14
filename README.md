@@ -200,7 +200,7 @@ Large model files are **not stored in GitHub** (GitHub limits files to 100 MB).
 
 Download the artifacts archive from Google Drive:
 
-**[Download artifacts.zip](https://drive.google.com/file/d/1rFphFsEmlPGHOX5OfzwtEj5OeSh-ykXU/view?usp=sharing)**
+**[Download artifacts.zip]([https://drive.google.com/file/d/1rFphFsEmlPGHOX5OfzwtEj5OeSh-ykXU/view?usp=sharing](https://drive.google.com/file/d/1H-LAu7L4xwlrO1uiGErB6yys6uJ8alcA/view?usp=sharing))**
 
 Then:
 
